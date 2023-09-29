@@ -53,7 +53,7 @@ class HomeActivity extends StatelessWidget {
 class ImageCard extends StatelessWidget {
   final String imageUrl;
 
-  ImageCard({required this.imageUrl});
+  const ImageCard({super.key, required this.imageUrl});
 
   @override
   Widget build(BuildContext context) {
@@ -68,7 +68,7 @@ class ImageCard extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           Padding(
-            padding: const EdgeInsets.all(0)
+            padding: const EdgeInsets.all(0),
           ),
         ],
       ),
