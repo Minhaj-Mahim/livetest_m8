@@ -68,7 +68,7 @@ class ImageCard extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           Padding(
-            padding: const EdgeInsets.all(0),
+            padding: const EdgeInsets.all(0)
           ),
         ],
       ),
