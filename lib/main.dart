@@ -19,6 +19,8 @@ class livetest8App extends StatelessWidget {
 class HomeActivity extends StatelessWidget {
   List<String> imageUrls = List.generate(10, (index) => 'https://via.placeholder.com/150?text=${"150 x 150"}');
 
+  HomeActivity({super.key});
+
   @override
   Widget build(BuildContext context) {
     final isLandscape =
